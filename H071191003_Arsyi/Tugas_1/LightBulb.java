@@ -20,28 +20,28 @@ public class LightBulb  {
              * if blue is off and red is on 
              * or if both blue and red lights are off
              */
-            this.blueIsOn = true;
-            this.redIsOn = false;
+            blueIsOn = true;
+            redIsOn = false;
         } else {
             // This turns blue light off and red light on if blue is on and red is off
-            this.blueIsOn = false;
-            this.redIsOn = true;
+            blueIsOn = false;
+            redIsOn = true;
         }
     }
 
     
     public void turnOff() {
         // This turns off both blue and red lights
-        this.blueIsOn = false;
-        this.redIsOn = false;
+        blueIsOn = false;
+        redIsOn = false;
     }
 
     /**
      * This prints out the status of the blue and red lights
      */
     public void getState() {
-        System.out.printf("Blue is\t: %s\n", this.blueIsOn ? "On" : "Off");
-        System.out.printf("Red is\t: %s\n\n", this.redIsOn ? "On" : "Off");
+        System.out.printf("Blue is\t: %s\n", blueIsOn ? "On" : "Off");
+        System.out.printf("Red is\t: %s\n\n", redIsOn ? "On" : "Off");
 
     }
 }

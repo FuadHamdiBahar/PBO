@@ -12,5 +12,6 @@ BELAJAR SENDIRI YAH TENTANG FORK!
 ++INFO++
 1. urionlinejudge, kalo kalian mau mengasah algoritma berpikir
 2. docs.oracle.com untuk mencari method method, seperti equals(), contains(), charAt(). lengkapp
+3. hackerrank, untuk belajar banyak hal
 
 ///HARUS SEMANGAT KALO MASIH MABA DEK, KURANG TIDUR ITU BIASA\\\

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Balb {
+class bulb {
     private boolean blueIsOn = false;
     private boolean redIsOn = false;
 
@@ -31,4 +31,4 @@ class Balb {
         System.out.print("Lampu Merah = ");
         System.out.println(!redIsOn ? "On" : "Off");
     }
-}
+} 

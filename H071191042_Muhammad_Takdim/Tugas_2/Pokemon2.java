@@ -20,16 +20,18 @@ public class Pokemon2 {
         hp = 100;
     }
     public void getDamage(Pokemon2 enemy){
-        if(type == "water" && enemy.type == "electric"){
-            enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
-        }else if(type == "ground" && enemy.type == "water"){
-            enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
-        }else if(type == "fire" && enemy.type == "water"){
-            enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
-        }else if(type == "electric" && enemy.type == "ground"){
-            enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
-        }else{
-            enemy.hp = enemy.hp - Math.abs(enemy.defense - (attackP));
+        if( defense < enemy.getAttackPower()){
+            if(type == "water" && enemy.type == "electric"){
+                enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
+            }else if(type == "ground" && enemy.type == "water"){
+                enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
+            }else if(type == "fire" && enemy.type == "water"){
+                enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
+            }else if(type == "electric" && enemy.type == "ground"){
+                enemy.hp = enemy.hp - Math.abs(enemy.defense - ((attackP)*(20/100)));
+            }else{
+                enemy.hp = enemy.hp - Math.abs(enemy.defense - (attackP));
+            }
         }
         
     }

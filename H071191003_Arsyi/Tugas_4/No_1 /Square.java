@@ -1,5 +1,3 @@
-package No_1;
-
 public class Square extends Shape{
     public Square(double side) {
         super(side,0);

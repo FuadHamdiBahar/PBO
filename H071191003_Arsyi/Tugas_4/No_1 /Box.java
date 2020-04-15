@@ -1,5 +1,3 @@
-package No_1;
-
 public class Box extends Rectangle{
     public Box(double width, double length, double depth) {
         super(width, length);

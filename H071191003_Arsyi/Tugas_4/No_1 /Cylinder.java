@@ -1,5 +1,3 @@
-package No_1;
-
 public class Cylinder extends Circle {
     public Cylinder(double radius, double depth) {
         super(radius);

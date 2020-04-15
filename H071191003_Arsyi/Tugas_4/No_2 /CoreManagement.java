@@ -1,5 +1,3 @@
-package No_2;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.InputMismatchException;

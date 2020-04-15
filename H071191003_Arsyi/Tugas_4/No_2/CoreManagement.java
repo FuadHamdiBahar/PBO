@@ -1,3 +1,5 @@
+package No_2;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.InputMismatchException;
@@ -60,8 +62,8 @@ public class CoreManagement extends FieldCoordinatorAndStaff {
         while (true) {
             int index = -1;
             System.out.println("===Demote a field coordinator or staff===");
-            printFCCSMembers();
-            System.out.printf("%d : Cancel\n", fCCSMembers.size()+1);
+            printFCSMembers();
+            System.out.printf("%d : Cancel\n", fCSMembers.size()+1);
             System.out.print("Choose a member : ");
             try {
                 if (input.hasNextInt()) {
@@ -71,12 +73,12 @@ public class CoreManagement extends FieldCoordinatorAndStaff {
                 System.out.println("Invalid input!");
                 continue;
             }
-            if (index >=0 && index < fCCSMembers.size()) {
-                System.out.printf("Successfully demoted : %s\n", fCCSMembers.get(index));
-                members.add(fCCSMembers.get(index));
-                fCCSMembers.remove(index);
+            if (index >=0 && index < fCSMembers.size()) {
+                System.out.printf("Successfully demoted : %s\n", fCSMembers.get(index));
+                members.add(fCSMembers.get(index));
+                fCSMembers.remove(index);
                 return;
-            } else if (index == fCCSMembers.size()) {
+            } else if (index == fCSMembers.size()) {
                 return;
             } else {
                 System.out.println("Invalid input!");
@@ -101,7 +103,7 @@ public class CoreManagement extends FieldCoordinatorAndStaff {
             }
             if (index >=0 && index < members.size()) {
                 System.out.printf("Successfully promoted : %s\n", members.get(index));
-                fCCSMembers.add(members.get(index));
+                fCSMembers.add(members.get(index));
                 members.remove(index);
                 return;
             } else if (index == members.size()) {
@@ -122,7 +124,7 @@ public class CoreManagement extends FieldCoordinatorAndStaff {
         System.out.println("Core Management Members :");
         printCoreManagementMembers();
         System.out.println("Field Coordinator and Staff :");
-        printFCCSMembers();
+        printFCSMembers();
         System.out.println("Regular Members :");
         printRegularMembers();
         System.out.println("==========================================");

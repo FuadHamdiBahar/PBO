@@ -1,3 +1,5 @@
+package No_1;
+
 public class Cube extends Square{
     public Cube(double width) {
         super(width);

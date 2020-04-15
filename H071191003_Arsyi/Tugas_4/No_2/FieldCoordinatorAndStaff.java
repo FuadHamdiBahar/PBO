@@ -1,3 +1,5 @@
+package No_2;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.InputMismatchException;
@@ -5,12 +7,12 @@ import java.util.Scanner;
 
 public class FieldCoordinatorAndStaff extends Members {
     private static Scanner input = new Scanner(System.in);
-    protected static final ArrayList<String>  fCCSMembers = new ArrayList<>();
+    protected static final ArrayList<String> fCSMembers = new ArrayList<>();
 
 
     public FieldCoordinatorAndStaff() {
-        if (fCCSMembers.size() == 0) {
-            Collections.addAll(fCCSMembers, "Alexa", "Siri", "Galaxy");
+        if (fCSMembers.size() == 0) {
+            Collections.addAll(fCSMembers, "Alexa", "Siri", "Galaxy");
         }
     };
 
@@ -115,9 +117,9 @@ public class FieldCoordinatorAndStaff extends Members {
         agenda.add(input.nextLine());
     }
 
-    protected void printFCCSMembers() {
-        for (int i = 0; i < fCCSMembers.size(); i++) {
-            System.out.printf("%d : %s\n",i+1, fCCSMembers.get(i));
+    protected void printFCSMembers() {
+        for (int i = 0; i < fCSMembers.size(); i++) {
+            System.out.printf("%d : %s\n",i+1, fCSMembers.get(i));
         }
     }
 

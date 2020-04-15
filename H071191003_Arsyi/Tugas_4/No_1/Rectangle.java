@@ -1,3 +1,5 @@
+package No_1;
+
 public class Rectangle extends Shape{
     public Rectangle(double width, double length) {
         super(width, length, 0);

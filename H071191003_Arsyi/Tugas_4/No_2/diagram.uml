@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="44.0" y="236.0">No_2.FieldCoordinatorAndStaff</node>
+    <node x="0.0" y="494.0">No_2.CoreManagement</node>
+    <node x="381.0" y="0.0">No_2.Main</node>
+    <node x="56.0" y="0.0">No_2.Members</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="No_2.CoreManagement" target="No_2.FieldCoordinatorAndStaff">
+      <point x="0.0" y="-93.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="No_2.FieldCoordinatorAndStaff" target="No_2.Members">
+      <point x="0.0" y="-104.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8864436783751048" x="597.9091949462891" y="362.1511688232422" />
+  <SelectedNodes>
+    <node>No_2.Members</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

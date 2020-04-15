@@ -1,3 +1,5 @@
+package No_1;
+
 public class Trapezium extends Shape {
     protected double upperLine;
     protected double lowerLine;

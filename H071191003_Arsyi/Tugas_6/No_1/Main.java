@@ -6,19 +6,19 @@ public class Main {
 
         Employee[] employees = new Employee[3];
 
-        for (int i = 0; i < employees.length; i++) {
-            if (i ==0) {
-                System.out.print("Name of Staff Member : ");
-                employees[i] = new Staff(input.nextLine());
-            }else if (i==1){
-                System.out.print("Name of Lecturer : ");
-                employees[i] = new Lecturer(input.nextLine());
-            } else {
-                System.out.print("Name of Employee : ");
-                employees[i] = new Employee(input.nextLine());
-            }
-            employees[i].calcSalary();
-        }
+    
+        System.out.print("Name of Staff Member : ");
+        employees[0] = new Staff(input.nextLine());
+        employees[0].calcSalary();
+
+        System.out.print("Name of Lecturer : ");
+        employees[1] = new Lecturer(input.nextLine());
+        employees[1].calcSalary();
+
+        System.out.print("Name of Employee : ");
+        employees[2] = new Employee(input.nextLine());
+        employees[2].calcSalary();
+        
 
         for (Employee employee : employees) {
             employee.printSalary();

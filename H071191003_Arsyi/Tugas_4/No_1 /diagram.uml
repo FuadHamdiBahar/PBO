@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="392.0" y="472.0">No_1.Cube</node>
+    <node x="865.6818181818182" y="324.0">No_1.Trapezium</node>
+    <node x="0.0" y="570.0">No_1.Main</node>
+    <node x="588.0" y="472.0">No_1.Cylinder</node>
+    <node x="196.0" y="472.0">No_1.Box</node>
+    <node x="381.0" y="0.0">No_1.Shape</node>
+    <node x="784.0" y="472.0">No_1.Sphere</node>
+    <node x="206.0" y="346.5">No_1.Rectangle</node>
+    <node x="0.0" y="472.0">No_1.TriangularPrism</node>
+    <node x="402.0" y="346.5">No_1.Square</node>
+    <node x="689.6818181818182" y="335.0">No_1.Circle</node>
+    <node x="10.000000000000114" y="346.5">No_1.Triangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="No_1.Cube" target="No_1.Square">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="No_1.Cylinder" target="No_1.Circle">
+      <point x="0.0" y="-26.5" />
+      <point x="676.0" y="447.0" />
+      <point x="728.6818181818182" y="447.0" />
+      <point x="-39.0" y="38.0" />
+    </edge>
+    <edge source="No_1.Box" target="No_1.Rectangle">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="No_1.Circle" target="No_1.Shape">
+      <point x="0.0" y="-38.0" />
+      <point x="767.6818181818182" y="304.0" />
+      <point x="519.5999999999999" y="304.0" />
+      <point x="39.599999999999966" y="137.0" />
+    </edge>
+    <edge source="No_1.Triangle" target="No_1.Shape">
+      <point x="0.0" y="-26.5" />
+      <point x="88.00000000000011" y="294.0" />
+      <point x="400.8" y="294.0" />
+      <point x="-79.19999999999999" y="137.0" />
+    </edge>
+    <edge source="No_1.Square" target="No_1.Shape">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="No_1.Trapezium" target="No_1.Shape">
+      <point x="0.0" y="-49.0" />
+      <point x="945.6818181818182" y="294.0" />
+      <point x="559.1999999999999" y="294.0" />
+      <point x="79.19999999999993" y="137.0" />
+    </edge>
+    <edge source="No_1.Rectangle" target="No_1.Shape">
+      <point x="0.0" y="-26.5" />
+      <point x="284.0" y="304.0" />
+      <point x="440.4" y="304.0" />
+      <point x="-39.60000000000002" y="137.0" />
+    </edge>
+    <edge source="No_1.TriangularPrism" target="No_1.Triangle">
+      <point x="1.1368683772161603E-13" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="No_1.Sphere" target="No_1.Circle">
+      <point x="0.0" y="-26.5" />
+      <point x="872.0" y="447.0" />
+      <point x="806.6818181818182" y="447.0" />
+      <point x="39.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="342.5" y="83.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
